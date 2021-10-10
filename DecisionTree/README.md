@@ -35,7 +35,8 @@ This is the implementation of the ID3 Decision Tree learning algorithm. Using it
         feature_categories: list of lists, values the features can take
         label_categories: list of strings/ints, values the labels 
                           can take
-        label_categoriesCount: list of ints, how many data instances have                                  each label
+        label_categoriesCount: list of ints, how many data instances have 
+                               each label. 
         tree: dictionary, the resulting DTs. keys are integers representing 
               the depth and the values are dictionaries representing the 
               DT for each respective depth key. A DT at each depth tree is 
@@ -43,6 +44,7 @@ This is the implementation of the ID3 Decision Tree learning algorithm. Using it
               values as labels. 
         common_labelsDict: dictionary, stores the most common label for 
                            each subset of data encountered. keys are tuples 
-                           of (feature,value) tupes and values are most                                common labels. 
+                           of (feature,value) tupes and values are most 
+                           common labels. 
 
 Running ID3 on an instance of this class is done using the "id3()" method, i.e., "DT.id3()". When ran, this creates decision trees with a specified purity measure and maximum depth that can be accessed by, for example, "DT.tree[depth]".  
