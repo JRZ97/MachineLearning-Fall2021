@@ -6,5 +6,5 @@ This dataset is from the [UCI repository](https://archive.ics.uci.edu/ml/dataset
 ### Bank
 This dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). Data descriptions are available in "data-desc.txt". 
 ### Code
-## HW1
+## "HW1.py", "run.sh"
 
