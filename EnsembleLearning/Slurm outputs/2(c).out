@@ -1,0 +1,4 @@
+************** PROBLEM 2 PART (c) **************
+For Problem 2(c), the single trees have bias = 0.3392, variance = 0.3404, general squared error = 0.6796.
+For Problem 2(c), the bagged predictors have bias = 0.4130, variance = 0.0107, general squared error = 0.4236.
+
