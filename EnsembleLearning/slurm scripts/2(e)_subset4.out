@@ -1,4 +1,0 @@
-************** PROBLEM 2 PART (e) **************
-For Problem 2(e), for feature subest size 4, the single trees have bias = 0.3385, variance = 0.3502, general squared error = 0.6887.
-For Problem 2(e), for feature subest size 4, RF bagged predictors have bias = 0.4335, variance = 0.0122, general squared error = 0.4457.
-
