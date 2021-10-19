@@ -103,4 +103,4 @@ This is the implementation of the AdaBoost learning algorithm. Using it defines 
         votes: list of floats, the votes for each iteration of AdaBoost
 
 Clearly, this is just a modification of the DT class that can be integrated in the future for a global class; the key difference is in the inclusion of handling fractional examples in the gain calculation and eventual tree construction. 
-Running the Adaboost algorithm on an instance of this class is done using the "train(num_iter)" method, i.e., "AdaBoost.train(num_iter)", where num_iter is the number of iterations to run the algorithm to. When ran, this creates decision stumps and a votes array that can be accessed by, for example, AdaBoost.stumps and AdaBoost.votes. 
+Running the Adaboost algorithm on an instance of this class is done using the "train(num_iter)" method, i.e., "AdaBoost.train(num_iter)", where num_iter is the number of iterations to run the algorithm to. When ran, this creates decision stumps and a votes array that can be accessed by, for example, "AdaBoost.stumps" and "AdaBoost.votes". 
