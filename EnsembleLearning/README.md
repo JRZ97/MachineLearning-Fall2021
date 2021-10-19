@@ -9,7 +9,7 @@ This dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/Ba
 These are my slurm outputs for each part of Problem 2. These were run on CHPC and had runtimes listed in my LaTeX homework. 
 ## Code
 ### "ensemble.py", "run.sh"
-This code is specific to running the tasks specified in HW2 (i.e., AdaBoost, bagged trees, and random forests training/test errors; bagged trees and random forests bias and variance). To run my code and get printed outputs, use the following lines in the terminal in the directory "EnsembleLearning": 
+This code is specific to running the tasks specified in HW2 (i.e., AdaBoost, bagged trees, and random forests training/test errors; bagged trees and random forests bias and variance). To run my code and get printed outputs, use the following lines in the terminal while in the directory "EnsembleLearning": 
 ```
 chmod u+x run.sh 
 ./run.sh
