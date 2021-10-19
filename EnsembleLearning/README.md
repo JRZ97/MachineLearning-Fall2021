@@ -15,7 +15,7 @@ chmod u+x run.sh
 ./run.sh
 ```
 ** IMPORTANT **
-Due to having very inefficient runtimes, I have greatly reduced these problems to (a) 3 AdaBoost iterations (b) 3 trees (c) 3 bagged predictors with 3 trees each (d) 3 trees for each feature subset size (e) 3 bagged predictors with 3 trees each. These will output print statements so that you can check that my code is running without errors. If you desire to adjust these values, here are the lines in the code to adjust how many iterations and number of trees if you desire:\ 
+Due to having very inefficient runtimes, I have greatly reduced these problems to (a) 3 AdaBoost iterations (b) 3 trees (c) 3 bagged predictors with 3 trees each (d) 3 trees for each feature subset size (e) 3 bagged predictors with 3 trees each. These will output print statements so that you can check that my code is running without errors. If you desire to adjust these values, here are the lines in the code to adjust how many iterations and number of trees if you desire: \
 (a) line 139, num_iters (adjusts number of AdaBoost iterations)\
 (b) line 181, num_bagIters (adjusts number of trees for bagged trees algorithm)\
 (c) lines 233 and 234, num_bags and num_bagIters (adjusts number of bagged predictors and number of trees in each predictor for bagged trees algorithm, respectively)\
