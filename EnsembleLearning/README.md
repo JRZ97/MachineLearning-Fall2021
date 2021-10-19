@@ -15,11 +15,11 @@ chmod u+x run.sh
 ./run.sh
 ```
 ** IMPORTANT **
-Due to having very inefficient runtimes, I have greatly reduced these problems to (a) 3 AdaBoost iterations (b) 3 trees (c) 3 bagged predictors with 3 trees each (d) 3 trees for each feature subset size (e) 3 bagged predictors with 3 trees each. These will output print statements so that you can check that my code is running without errors. If you desire to adjust these values, here are the lines in the code to adjust how many iterations and number of trees if you desire: 
-(a) line 139, num_iters (adjusts number of AdaBoost iterations)
-(b) line 181, num_bagIters (adjusts number of trees for bagged trees algorithm)
-(c) lines 233 and 234, num_bags and num_bagIters (adjusts number of bagged predictors and number of trees in each predictor for bagged trees algorithm, respectively)
-(d) line 304, num_bagIters (adjusts number of trees for random forests algorithm)
+Due to having very inefficient runtimes, I have greatly reduced these problems to (a) 3 AdaBoost iterations (b) 3 trees (c) 3 bagged predictors with 3 trees each (d) 3 trees for each feature subset size (e) 3 bagged predictors with 3 trees each. These will output print statements so that you can check that my code is running without errors. If you desire to adjust these values, here are the lines in the code to adjust how many iterations and number of trees if you desire:\ 
+(a) line 139, num_iters (adjusts number of AdaBoost iterations)\
+(b) line 181, num_bagIters (adjusts number of trees for bagged trees algorithm)\
+(c) lines 233 and 234, num_bags and num_bagIters (adjusts number of bagged predictors and number of trees in each predictor for bagged trees algorithm, respectively)\
+(d) line 304, num_bagIters (adjusts number of trees for random forests algorithm)\
 (e) lines 367 and 368, num_bags and num_bagIters (adjusts number of bagged predictors and number of trees in each predictor for random forests algorithm, respectively)
 ### "decision_tree.py"
 This is the implementation of the ID3 Decision Tree learning algorithm with additional methods for the random forests algorithm. Using it defines an instance of the class "DT" that contains methods that run the ID3 algorithm and predict the label of an example. Here is a description of an instance of the class "DT": 
@@ -102,5 +102,5 @@ This is the implementation of the AdaBoost learning algorithm. Using it defines 
         stumps: list of DTs, the DT for each iteration of AdaBoost
         votes: list of floats, the votes for each iteration of AdaBoost
 
-Clearly, this is just a modification of the DT class that can be integrated in the future for a global class; the key difference is in the inclusion of handling fractional examples in the gain calculation and eventual tree construction. 
+Clearly, this is just a modification of the DT class that can be integrated in the future for a global class; the key difference is in the inclusion of handling fractional examples in the gain calculation and eventual tree construction.\
 Running the Adaboost algorithm on an instance of this class is done using the "train(num_iter)" method, i.e., "AdaBoost.train(num_iter)", where num_iter is the number of iterations to run the algorithm to. When ran, this creates decision stumps and a votes array that can be accessed by, for example, "AdaBoost.stumps" and "AdaBoost.votes". 
