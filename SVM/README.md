@@ -5,13 +5,13 @@ This is the implementation of the SVM algorithms used in HW4 Problems 2 and 3. T
 ### bank-note
 This dataset is from [UCI repository](https://archive.ics.uci.edu/ml/datasets/banknote+authentication). Data descriptions are available in "data-desc.txt". 
 ## Code
-### "HW3.py", "run.sh"
-This code is specific to running the tasks specified in HW3 (i.e., running Perceptron using a maximum number of epochs of 10 and a learning rate of 0.01 and printing out the learned weight vectors and average prediction error on the test dataset). To run my code and get printed outputs, use the following lines in the terminal while in the directory "Perceptron": 
+### "HW4.py", "run.sh"
+This code is specific to running the tasks specified in HW4 (i.e., learning SVM using the dataset at a variety of hyperparameters and outputting the optimal weight vectors and training/test errors). To run my code and get printed outputs, use the following lines in the terminal while in the directory "SVM": 
 ```
 chmod u+x run.sh 
 ./run.sh
 ```
-### "perceptron.py"
+### "SVM.py"
 This is the implementation of the Perceptron learning algorithm for the standard, voted, and averaged methods. Using it defines an instance of the class "PCPT" that contains methods that run the Perceptron algorithm and predict the label of an example. Here is a description of an instance of the class "PCPT": 
    
     Attributes
