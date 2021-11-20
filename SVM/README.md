@@ -1,5 +1,5 @@
-# Perceptron
-This is the implementation of the Perceptron algorithm used in HW3 Problem 2. These consist of: part (a) the standard Perceptron algorithm, part (b) the voted Perceptron algorithm, part (c) the averaged Perceptron algorithm.
+# SVM
+This is the implementation of the SVM algorithms used in HW4 Problems 2 and 3. These consist of: (Problem 2) linear SVM in the primal domain with stochastic sub-gradient descent, (Problem 3) linear and nonlinear SVM in the dual domain. 
  
 ## Dataset Folders
 ### bank-note
